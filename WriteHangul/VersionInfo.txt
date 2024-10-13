@@ -1,0 +1,29 @@
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 2, 0, 0),   # 파일 버전 1.1
+    prodvers=(1, 2, 0, 0),   # 제품 버전 1.1
+    mask=0x3f,
+    flags=0x0,
+    OS=0x4,
+    fileType=0x1,
+    subtype=0x0,
+    date=(2024, 1013)        # 날짜 20241012
+  ),
+  kids=[
+    StringFileInfo([          # 문자열 정보
+      StringTable(
+        '040904B0', [         # 언어코드: 영어(0409), 유니코드(04B0)
+          StringStruct('FileDescription', '한글을 칠 수 없는 위치에 유니코드로 된 한글 입력'),
+          StringStruct('FileVersion', '1.2'),   # 파일 버전 1.1
+          StringStruct('OriginalFilename', 'WriteHangul.exe'),  # 원본 파일 이름
+          StringStruct('ProductVersion', '1.2'), # 제품 버전 1.1
+        ])
+    ]),
+    VarFileInfo([
+      VarStruct('Translation', [1033, 1200])  # 언어 및 문자셋: 영어(1033), 유니코드(1200)
+    ]),
+    VarFileInfo([
+      VarStruct('Translation', [1042, 1200])  # 한국어(1042), 유니코드(1200)
+    ])
+  ]
+)
